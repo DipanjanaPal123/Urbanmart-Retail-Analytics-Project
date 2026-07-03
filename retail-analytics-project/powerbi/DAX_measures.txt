@@ -1,0 +1,55 @@
+-- ============================================================
+-- UrbanMart Retail Analytics — DAX Measures
+-- Paste each into Power BI: Modeling > New Measure
+-- Data source: python/output/fact_sales_full.csv (or the sales/
+-- customers/products tables from data/urbanmart.db via SQL Server/ODBC)
+-- ============================================================
+
+Total Revenue = SUM(fact_sales_full[net_sales])
+
+Total Profit = SUM(fact_sales_full[profit])
+
+Profit Margin % = DIVIDE([Total Profit], [Total Revenue], 0)
+
+Total Orders = DISTINCTCOUNT(fact_sales_full[order_id])
+
+Avg Order Value = DIVIDE([Total Revenue], [Total Orders], 0)
+
+Active Customers = DISTINCTCOUNT(fact_sales_full[customer_id])
+
+Revenue LY =
+CALCULATE([Total Revenue], SAMEPERIODLASTYEAR('Calendar'[Date]))
+
+YoY Growth % =
+DIVIDE([Total Revenue] - [Revenue LY], [Revenue LY], 0)
+
+Revenue MTD =
+TOTALMTD([Total Revenue], 'Calendar'[Date])
+
+Revenue Running Total =
+CALCULATE(
+    [Total Revenue],
+    FILTER(ALLSELECTED('Calendar'[Date]), 'Calendar'[Date] <= MAX('Calendar'[Date]))
+)
+
+Top Category Revenue =
+CALCULATE([Total Revenue], TOPN(1, ALL(fact_sales_full[category]), [Total Revenue]))
+
+Champions Revenue Share =
+DIVIDE(
+    CALCULATE([Total Revenue], rfm_segments[segment] = "Champions"),
+    [Total Revenue], 0
+)
+
+-- ============================================================
+-- Calendar table (Modeling > New Table)
+-- ============================================================
+Calendar =
+ADDCOLUMNS(
+    CALENDAR(DATE(2022,1,1), DATE(2024,12,31)),
+    "Year", YEAR([Date]),
+    "Month", FORMAT([Date], "MMM"),
+    "MonthNum", MONTH([Date]),
+    "Quarter", "Q" & FORMAT([Date], "Q"),
+    "YearMonth", FORMAT([Date], "YYYY-MM")
+)

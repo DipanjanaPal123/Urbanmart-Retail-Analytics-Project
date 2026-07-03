@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UrbanMart Retail Analytics — Dashboard</title>
+<script src="chart.umd.js"></script>
+<style>
+:root{
+  --bg:#F4F6F9;
+  --panel:#FFFFFF;
+  --panel-border:#E3E8EF;
+  --ink:#12172B;
+  --ink-soft:#5B6472;
+  --ink-faint:#94A0B2;
+  --blue-900:#0F2A5C;
+  --blue-700:#1D4ED8;
+  --blue-500:#2563EB;
+  --blue-100:#E7EEFC;
+  --green:#16A34A;
+  --green-100:#E7F7ED;
+  --red:#DC2626;
+  --red-100:#FDECEC;
+  --orange:#F0872B;
+  --orange-100:#FDEEE1;
+  --nav-w:216px;
+  --radius:12px;
+  --shadow: 0 1px 2px rgba(15,42,92,0.04), 0 1px 12px rgba(15,42,92,0.05);
+}
+*{box-sizing:border-box;}
+html,body{margin:0;padding:0;}
+body{
+  background:var(--bg);
+  color:var(--ink);
+  font-family:'Inter',system-ui,sans-serif;
+  -webkit-font-smoothing:antialiased;
+}
+.num{font-family:'IBM Plex Mono',monospace;font-variant-numeric:tabular-nums;}
+
+/* ---------- Shell ---------- */
+.app{display:flex;min-height:100vh;}
+
+/* ---------- Side nav ---------- */
+.nav{
+  width:var(--nav-w);
+  background:var(--blue-900);
+  color:#DCE6FB;
+  flex-shrink:0;
+  padding:22px 16px;
+  position:sticky;top:0;height:100vh;
+}
+.nav-brand{display:flex;align-items:center;gap:10px;margin-bottom:28px;padding:0 6px;}
+.nav-brand .mark{
+  width:30px;height:30px;border-radius:8px;
+  background:linear-gradient(135deg, var(--orange), #FCB169);
+  display:flex;align-items:center;justify-content:center;
+  font-weight:800;color:#12172B;font-size:14px;
+}
+.nav-brand .name{font-weight:700;font-size:14.5px;color:#fff;letter-spacing:.2px;}
+.nav-brand .sub{font-size:10.5px;color:#8EA3CE;margin-top:1px;}
+.nav-section-label{font-size:10.5px;text-transform:uppercase;letter-spacing:.08em;color:#5E77AC;margin:20px 8px 8px;font-weight:600;}
+.nav-item{
+  display:flex;align-items:center;gap:10px;
+  padding:10px 12px;border-radius:8px;font-size:13.5px;font-weight:500;
+  color:#B9C8E8;cursor:pointer;margin-bottom:2px;transition:background .15s, color .15s;
+}
+.nav-item svg{width:16px;height:16px;flex-shrink:0;opacity:.85;}
+.nav-item:hover{background:rgba(255,255,255,0.06);color:#fff;}
+.nav-item.active{background:var(--blue-700);color:#fff;}
+.nav-item.active svg{opacity:1;}
+.nav-foot{position:absolute;bottom:20px;left:16px;right:16px;font-size:10.5px;color:#5E77AC;line-height:1.5;padding:0 6px;}
+.nav-foot a{color:#8EA3CE;text-decoration:none;}
+
+/* ---------- Main ---------- */
+.main{flex:1;min-width:0;padding:24px 30px 60px;}
+
+/* Top bar */
+.topbar{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:18px;flex-wrap:wrap;gap:14px;}
+.page-title{font-size:21px;font-weight:800;letter-spacing:-.01em;}
+.page-sub{font-size:12.5px;color:var(--ink-soft);margin-top:3px;}
+.asof{font-size:11px;color:var(--ink-faint);}
+.asof b{color:var(--ink-soft);}
+
+/* Filter pane */
+.filters{
+  display:flex;gap:10px;flex-wrap:wrap;align-items:center;
+  background:var(--panel);border:1px solid var(--panel-border);
+  border-radius:var(--radius);padding:12px 14px;margin-bottom:20px;box-shadow:var(--shadow);
+}
+.filters .flabel{font-size:11px;font-weight:700;color:var(--ink-soft);text-transform:uppercase;letter-spacing:.05em;margin-right:2px;}
+select{
+  appearance:none;-webkit-appearance:none;
+  background:#F7F9FC url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="6"><path d="M0 0l5 6 5-6z" fill="%235B6472"/></svg>') no-repeat right 10px center;
+  border:1px solid var(--panel-border);
+  border-radius:7px;padding:7px 28px 7px 11px;font-size:12.5px;font-weight:500;color:var(--ink);
+  font-family:inherit;cursor:pointer;
+}
+select:hover{border-color:#C6D2E6;}
+.reset-btn{
+  margin-left:auto;font-size:12px;font-weight:600;color:var(--blue-700);
+  background:var(--blue-100);border:none;border-radius:7px;padding:7px 12px;cursor:pointer;
+}
+.reset-btn:hover{background:#D8E4FB;}
+
+/* Grid + cards */
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:16px;}
+.card{
+  background:var(--panel);border:1px solid var(--panel-border);border-radius:var(--radius);
+  padding:16px 18px 14px;box-shadow:var(--shadow);min-width:0;
+}
+.card-title{font-size:12.5px;font-weight:700;color:var(--ink);margin-bottom:2px;}
+.card-sub{font-size:10.5px;color:var(--ink-faint);margin-bottom:10px;}
+
+/* KPI cards */
+.kpi{grid-column:span 2;padding:14px 16px;}
+.kpi .label{font-size:11px;font-weight:600;color:var(--ink-soft);text-transform:uppercase;letter-spacing:.04em;}
+.kpi .value{font-size:22px;font-weight:800;margin-top:6px;letter-spacing:-.02em;}
+.kpi .delta{display:inline-flex;align-items:center;gap:3px;font-size:11px;font-weight:700;margin-top:7px;padding:2px 7px;border-radius:99px;}
+.kpi .delta.pos{color:var(--green);background:var(--green-100);}
+.kpi .delta.neg{color:var(--red);background:var(--red-100);}
+.kpi .delta.flat{color:var(--ink-soft);background:#F1F3F7;}
+
+@media (max-width:1200px){ .kpi{grid-column:span 4;} }
+@media (max-width:760px){ .kpi{grid-column:span 6;} }
+
+.c6{grid-column:span 6;} .c4{grid-column:span 4;} .c8{grid-column:span 8;}
+.c12{grid-column:span 12;} .c3{grid-column:span 3;} .c9{grid-column:span 9;}
+.c5{grid-column:span 5;} .c7{grid-column:span 7;}
+@media (max-width:900px){ .c6,.c4,.c8,.c3,.c9,.c5,.c7{grid-column:span 12;} }
+
+canvas{max-width:100%;}
+.chart-wrap{position:relative;width:100%;}
+.chart-wrap canvas{position:absolute;top:0;left:0;width:100%!important;height:100%!important;}
+
+/* Insight card */
+.insights{background:linear-gradient(135deg, var(--blue-900), #16346E);color:#fff;border:none;}
+.insights .card-title{color:#fff;}
+.insights .card-sub{color:#9FB3DC;}
+.insight-row{display:flex;align-items:flex-start;gap:9px;font-size:12.5px;line-height:1.5;padding:7px 0;border-bottom:1px solid rgba(255,255,255,0.08);}
+.insight-row:last-child{border-bottom:none;}
+.insight-row .dot{width:6px;height:6px;border-radius:50%;margin-top:6px;flex-shrink:0;}
+.insight-row b{color:#fff;}
+.insight-row span.txt{color:#CBD9F2;}
+
+/* Tables */
+table{width:100%;border-collapse:collapse;font-size:12px;}
+th{
+  text-align:left;font-size:10.5px;text-transform:uppercase;letter-spacing:.04em;
+  color:var(--ink-faint);font-weight:700;padding:7px 9px;border-bottom:1px solid var(--panel-border);
+}
+td{padding:7px 9px;border-bottom:1px solid #F0F2F6;color:var(--ink);}
+tr:last-child td{border-bottom:none;}
+.badge{font-size:10px;font-weight:700;padding:2px 8px;border-radius:99px;display:inline-block;}
+.badge.champ{background:var(--green-100);color:var(--green);}
+.badge.loyal{background:var(--blue-100);color:var(--blue-700);}
+.badge.pot{background:var(--orange-100);color:var(--orange);}
+.badge.risk{background:var(--red-100);color:var(--red);}
+.bar-cell{position:relative;background:#F1F4F9;border-radius:5px;height:16px;overflow:hidden;}
+.bar-cell .fill{position:absolute;left:0;top:0;bottom:0;background:var(--blue-500);border-radius:5px;}
+
+/* Heatmap */
+.heatmap{display:grid;gap:3px;}
+.hcell{border-radius:4px;font-size:9.5px;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:600;height:26px;}
+.hrow-label{font-size:10px;color:var(--ink-soft);display:flex;align-items:center;padding-right:6px;font-weight:600;}
+.hcol-label{font-size:9.5px;color:var(--ink-faint);text-align:center;font-weight:600;}
+
+/* What-if */
+.whatif-slider{width:100%;accent-color:var(--blue-700);margin:14px 0 6px;}
+.whatif-value{font-size:28px;font-weight:800;color:var(--blue-700);}
+.whatif-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:12px;}
+.whatif-box{background:#F7F9FC;border-radius:9px;padding:10px 12px;}
+.whatif-box .l{font-size:10.5px;color:var(--ink-soft);font-weight:600;text-transform:uppercase;}
+.whatif-box .v{font-size:16px;font-weight:800;margin-top:3px;}
+
+/* Decomposition */
+.decomp-path{display:flex;align-items:center;gap:6px;font-size:11.5px;color:var(--ink-soft);margin-bottom:10px;flex-wrap:wrap;}
+.decomp-path .step{background:var(--blue-100);color:var(--blue-700);font-weight:700;padding:3px 9px;border-radius:99px;cursor:pointer;}
+.decomp-path .sep{color:var(--ink-faint);}
+.decomp-hint{font-size:10.5px;color:var(--ink-faint);margin-top:8px;}
+
+/* Legend dots */
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:11px;color:var(--ink-soft);margin-top:8px;}
+.legend .item{display:flex;align-items:center;gap:5px;}
+.legend .sw{width:9px;height:9px;border-radius:3px;}
+
+.page{display:none;}
+.page.active{display:block;}
+
+.tooltip-pill{font-size:10px;background:#F1F4F9;color:var(--ink-soft);padding:2px 7px;border-radius:6px;font-weight:600;}
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="nav">
+    <div class="nav-brand">
+      <div class="mark">U</div>
+      <div>
+        <div class="name">UrbanMart</div>
+        <div class="sub">Retail Analytics</div>
+      </div>
+    </div>
+    <div class="nav-section-label">Reports</div>
+    <div class="nav-item active" data-page="exec">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M7 15l4-6 4 3 5-8"/></svg>
+      Executive Overview
+    </div>
+    <div class="nav-item" data-page="cust">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="8" r="3.2"/><path d="M2.5 20c0-3.6 2.9-6.2 6.5-6.2s6.5 2.6 6.5 6.2"/><circle cx="18" cy="8.5" r="2.4"/><path d="M15.8 13.8c2.9.3 5.2 2.7 5.2 6.2"/></svg>
+      Customer Analytics
+    </div>
+    <div class="nav-item" data-page="fcst">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg>
+      Forecast &amp; Trends
+    </div>
+    <div class="nav-foot">
+      Built with SQL · Python · Excel<br>
+      <a href="#">github.com/yourname/urbanmart-analytics</a>
+    </div>
+  </div>
+
+  <div class="main">
+
+    <!-- ================= PAGE 1: EXECUTIVE OVERVIEW ================= -->
+    <div class="page active" id="page-exec">
+      <div class="topbar">
+        <div>
+          <div class="page-title">Executive Overview</div>
+          <div class="page-sub">How is the business performing?</div>
+        </div>
+        <div class="asof">Data through <b id="asof-date">—</b></div>
+      </div>
+
+      <div class="filters" id="filters">
+        <span class="flabel">Year</span><select id="f-year"></select>
+        <span class="flabel">Region</span><select id="f-region"></select>
+        <span class="flabel">Category</span><select id="f-category"></select>
+        <span class="flabel">Segment</span><select id="f-segment"></select>
+        <button class="reset-btn" id="f-reset">Reset filters</button>
+      </div>
+
+      <div class="grid" id="kpi-row"></div>
+
+      <div class="grid" style="margin-top:16px;">
+        <div class="card c8">
+          <div class="card-title">Monthly Revenue Trend</div>
+          <div class="card-sub">Current year vs. prior year</div>
+          <div class="chart-wrap" style="height:260px;"><canvas id="chart-trend"></canvas></div>
+        </div>
+        <div class="card c4 insights">
+          <div class="card-title">Dynamic Insights</div>
+          <div class="card-sub">Auto-generated from filtered data</div>
+          <div id="insights-list"></div>
+        </div>
+
+        <div class="card c6">
+          <div class="card-title">Revenue by Category</div>
+          <div class="card-sub">Hover for profit &amp; margin</div>
+          <div class="chart-wrap" style="height:260px;"><canvas id="chart-category"></canvas></div>
+        </div>
+        <div class="card c6">
+          <div class="card-title">Regional Performance</div>
+          <div class="card-sub">Revenue share by region</div>
+          <div class="chart-wrap" style="height:260px;"><canvas id="chart-region"></canvas></div>
+        </div>
+
+        <div class="card c6">
+          <div class="card-title">Revenue vs. Profit by Category</div>
+          <div class="card-sub">Bubble size = order count</div>
+          <div class="chart-wrap" style="height:260px;"><canvas id="chart-scatter"></canvas></div>
+        </div>
+        <div class="card c6">
+          <div class="card-title">Monthly Profit Margin</div>
+          <div class="card-sub">Managers watch this more than raw revenue</div>
+          <div class="chart-wrap" style="height:260px;"><canvas id="chart-margin"></canvas></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= PAGE 2: CUSTOMER ANALYTICS ================= -->
+    <div class="page" id="page-cust">
+      <div class="topbar">
+        <div>
+          <div class="page-title">Customer Analytics</div>
+          <div class="page-sub">RFM segmentation, lifetime value &amp; retention</div>
+        </div>
+        <div class="asof">Segments: Champions · Loyal · Potential · At Risk</div>
+      </div>
+
+      <div class="grid">
+        <div class="card c3">
+          <div class="card-title">RFM Segment Distribution</div>
+          <div class="card-sub">Share of customers</div>
+          <div class="chart-wrap" style="height:260px;"><canvas id="chart-segdonut"></canvas></div>
+        </div>
+        <div class="card c9">
+          <div class="card-title">Revenue by Customer Segment</div>
+          <div class="card-sub">Stacked by year — which segments drive revenue</div>
+          <div class="chart-wrap" style="height:240px;"><canvas id="chart-segstack"></canvas></div>
+        </div>
+
+        <div class="card c7">
+          <div class="card-title">Customer Matrix — Top 25 by Revenue</div>
+          <div class="card-sub">Conditional formatting on revenue</div>
+          <div style="max-height:340px;overflow:auto;">
+            <table id="tbl-customers"></table>
+          </div>
+        </div>
+        <div class="card c5">
+          <div class="card-title">Customer Lifetime Value — Top 20</div>
+          <div class="card-sub">Total revenue per customer</div>
+          <div class="chart-wrap" style="height:420px;"><canvas id="chart-clv"></canvas></div>
+        </div>
+
+        <div class="card c6">
+          <div class="card-title">Customer Recency Distribution</div>
+          <div class="card-sub">Days since last purchase</div>
+          <div class="chart-wrap" style="height:240px;"><canvas id="chart-recency"></canvas></div>
+        </div>
+        <div class="card c6">
+          <div class="card-title">Customer Growth — New vs. Returning</div>
+          <div class="card-sub">Monthly active customers</div>
+          <div class="chart-wrap" style="height:240px;"><canvas id="chart-growth"></canvas></div>
+        </div>
+
+        <div class="card c12">
+          <div class="card-title">Retention Cohort Heatmap</div>
+          <div class="card-sub">% of each signup cohort still purchasing, month 0–12</div>
+          <div id="cohort-heatmap" style="overflow-x:auto;"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= PAGE 3: FORECAST & TRENDS ================= -->
+    <div class="page" id="page-fcst">
+      <div class="topbar">
+        <div>
+          <div class="page-title">Forecast &amp; Trends</div>
+          <div class="page-sub">Advanced analytics — seasonality, forecasting &amp; scenario modeling</div>
+        </div>
+        <div class="asof">Model: Holt-Winters exponential smoothing (7-day seasonality)</div>
+      </div>
+
+      <div class="grid" id="fcst-kpi-row"></div>
+
+      <div class="grid" style="margin-top:16px;">
+        <div class="card c8">
+          <div class="card-title">Historical + 90-Day Forecast</div>
+          <div class="card-sub">Dashed line marks the forecast horizon</div>
+          <div class="chart-wrap" style="height:300px;"><canvas id="chart-forecast"></canvas></div>
+        </div>
+        <div class="card c4">
+          <div class="card-title">What-If: Price Change</div>
+          <div class="card-sub">Simulated impact on 90-day revenue (elasticity = -1.2)</div>
+          <input type="range" id="whatif-slider" class="whatif-slider" min="-15" max="15" step="1" value="0">
+          <div class="whatif-value" id="whatif-pct">0%</div>
+          <div class="whatif-grid">
+            <div class="whatif-box"><div class="l">Base Forecast</div><div class="v num" id="whatif-base">—</div></div>
+            <div class="whatif-box"><div class="l">Projected Revenue</div><div class="v num" id="whatif-proj">—</div></div>
+          </div>
+        </div>
+
+        <div class="card c7">
+          <div class="card-title">Seasonal Pattern</div>
+          <div class="card-sub">Average daily revenue — month × weekday</div>
+          <div id="season-heatmap" style="overflow-x:auto;"></div>
+        </div>
+        <div class="card c5">
+          <div class="card-title">Sales Decomposition</div>
+          <div class="card-sub">Click a bar to drill: Category → Region → Product</div>
+          <div class="decomp-path" id="decomp-path"></div>
+          <div class="chart-wrap" style="height:280px;"><canvas id="chart-decomp"></canvas></div>
+          <div class="decomp-hint">Click a bar to drill down · click the breadcrumb to go back up</div>
+        </div>
+
+        <div class="card c6">
+          <div class="card-title">Best Performing Products</div>
+          <div class="card-sub">Top 10 by revenue</div>
+          <table id="tbl-topprod"></table>
+        </div>
+        <div class="card c6">
+          <div class="card-title">Lowest Performing Products</div>
+          <div class="card-sub">Bottom 10 by revenue</div>
+          <table id="tbl-bottomprod"></table>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+const DATA = __DASHBOARD_DATA__;
+</script>
+<script src="dashboard.js"></script>
+</body>
+</html>

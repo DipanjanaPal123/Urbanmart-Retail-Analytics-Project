@@ -1,0 +1,1201 @@
+customer_id,customer_name,region,segment,signup_date
+C00001,Yuki Nguyen,West,Consumer,2024-08-06
+C00002,Karen Silva,West,Consumer,2022-04-08
+C00003,Robert Nguyen,South,Consumer,2024-04-13
+C00004,Liam Garcia,North,Consumer,2024-01-26
+C00005,Sarah Patel,Central,Small Business,2022-02-01
+C00006,Jessica Silva,North,Consumer,2023-08-21
+C00007,Linda Kumar,West,Consumer,2022-02-15
+C00008,Ahmed Kim,North,Small Business,2023-08-10
+C00009,Michael Rodriguez,West,Consumer,2022-03-16
+C00010,William Andersson,West,Small Business,2022-01-06
+C00011,John Martinez,South,Consumer,2024-02-11
+C00012,Linda Patel,South,Consumer,2024-05-13
+C00013,Sofia Jones,West,Consumer,2022-11-07
+C00014,James Williams,North,Small Business,2024-06-06
+C00015,Elena Nguyen,East,Consumer,2024-01-31
+C00016,Elizabeth Kim,North,Small Business,2023-03-04
+C00017,Fatima Brown,Central,Consumer,2023-04-21
+C00018,William Brown,Central,Consumer,2023-02-15
+C00019,Yuki Johnson,West,Consumer,2023-11-26
+C00020,Yuki Patel,North,Small Business,2022-04-16
+C00021,Elena Miller,Central,Consumer,2023-06-24
+C00022,Ahmed Dubois,South,Consumer,2023-10-10
+C00023,Carlos Rodriguez,East,Small Business,2022-06-14
+C00024,Sofia Silva,North,Consumer,2022-09-27
+C00025,Karen Muller,North,Consumer,2023-07-13
+C00026,Michael Johnson,West,Consumer,2022-09-04
+C00027,Carlos Muller,Central,Consumer,2024-09-24
+C00028,James Smith,South,Consumer,2022-02-03
+C00029,Jennifer Brown,North,Consumer,2023-05-05
+C00030,Jennifer Jones,West,Consumer,2022-08-31
+C00031,Jessica Kumar,Central,Consumer,2023-06-20
+C00032,Fatima Williams,East,Small Business,2022-07-06
+C00033,Robert Andersson,South,Consumer,2022-01-17
+C00034,Linda Miller,Central,Consumer,2024-07-29
+C00035,Ahmed Rossi,Central,Small Business,2022-12-08
+C00036,Yuki Kumar,West,Consumer,2022-09-15
+C00037,Mary Smith,North,Small Business,2023-06-14
+C00038,Carlos Rodriguez,South,Small Business,2024-06-19
+C00039,Karen Smith,West,Consumer,2024-04-26
+C00040,Jennifer Davis,West,Consumer,2022-06-11
+C00041,Robert Rossi,North,Consumer,2022-04-12
+C00042,Jessica Rodriguez,North,Consumer,2023-11-23
+C00043,Jessica Dubois,South,Small Business,2023-05-09
+C00044,James Kumar,North,Consumer,2023-12-22
+C00045,Susan Garcia,Central,Consumer,2022-09-23
+C00046,Carlos Johnson,South,Consumer,2024-06-25
+C00047,James Jones,South,Consumer,2023-10-31
+C00048,Thomas Muller,Central,Consumer,2023-07-27
+C00049,Jennifer Williams,West,Corporate,2022-10-07
+C00050,Susan Williams,Central,Consumer,2022-11-27
+C00051,Wei Smith,South,Consumer,2022-11-02
+C00052,Arjun Williams,East,Consumer,2023-07-11
+C00053,Arjun Johnson,South,Consumer,2023-09-08
+C00054,Linda Smith,North,Small Business,2022-11-19
+C00055,Elizabeth Williams,South,Consumer,2023-07-07
+C00056,Michael Brown,West,Consumer,2022-03-23
+C00057,Jessica Nguyen,Central,Consumer,2023-12-03
+C00058,Mary Andersson,East,Consumer,2023-01-11
+C00059,Elena Muller,North,Small Business,2022-10-14
+C00060,Yuki Jones,East,Small Business,2022-12-27
+C00061,John Miller,North,Consumer,2022-08-04
+C00062,Joseph Williams,West,Small Business,2023-06-16
+C00063,Yuki Martinez,South,Small Business,2024-09-02
+C00064,Yuki Jones,North,Consumer,2022-09-28
+C00065,Barbara Smith,North,Consumer,2023-03-05
+C00066,Liam Kumar,North,Corporate,2022-09-08
+C00067,Fatima Miller,West,Consumer,2023-10-01
+C00068,Robert Patel,East,Consumer,2024-01-01
+C00069,Fatima Nguyen,North,Consumer,2022-05-01
+C00070,Liam Dubois,North,Consumer,2022-11-08
+C00071,Priya Miller,South,Consumer,2024-02-03
+C00072,Elena Martinez,Central,Small Business,2023-10-12
+C00073,Elizabeth Andersson,East,Small Business,2022-09-18
+C00074,Patricia Kumar,North,Consumer,2023-10-21
+C00075,Carlos Dubois,East,Consumer,2022-01-27
+C00076,James Andersson,Central,Consumer,2023-10-06
+C00077,Linda Martinez,North,Consumer,2024-03-31
+C00078,Susan Johnson,North,Consumer,2022-08-03
+C00079,Elena Davis,South,Small Business,2022-12-03
+C00080,Charles Rodriguez,East,Small Business,2022-12-07
+C00081,William Brown,South,Corporate,2022-12-15
+C00082,John Rodriguez,East,Consumer,2023-07-02
+C00083,Patricia Rossi,South,Consumer,2024-01-02
+C00084,John Patel,East,Small Business,2024-05-17
+C00085,David Muller,East,Consumer,2024-01-25
+C00086,Richard Andersson,South,Consumer,2023-01-25
+C00087,Barbara Rodriguez,South,Corporate,2024-06-24
+C00088,Charles Silva,North,Consumer,2024-08-08
+C00089,Karen Brown,Central,Small Business,2023-08-26
+C00090,Priya Martinez,Central,Corporate,2022-04-24
+C00091,Robert Chen,West,Corporate,2022-02-25
+C00092,Elena Patel,Central,Small Business,2023-11-20
+C00093,Linda Martinez,South,Small Business,2023-03-03
+C00094,Fatima Jones,South,Consumer,2022-05-27
+C00095,Arjun Dubois,South,Corporate,2024-05-13
+C00096,Patricia Garcia,West,Consumer,2023-08-15
+C00097,Michael Martinez,Central,Consumer,2023-01-13
+C00098,Richard Rossi,East,Consumer,2023-05-08
+C00099,Fatima Rodriguez,West,Small Business,2022-04-29
+C00100,Ahmed Muller,North,Consumer,2022-08-26
+C00101,Elena Patel,Central,Consumer,2023-03-13
+C00102,Jessica Chen,Central,Consumer,2022-11-19
+C00103,Ahmed Rossi,North,Consumer,2023-11-27
+C00104,James Williams,Central,Consumer,2022-10-22
+C00105,Jessica Davis,South,Consumer,2022-10-08
+C00106,Elena Brown,East,Consumer,2022-12-02
+C00107,Yuki Jones,Central,Corporate,2023-08-07
+C00108,Thomas Rodriguez,South,Small Business,2023-11-30
+C00109,Fatima Kim,Central,Small Business,2023-11-16
+C00110,John Silva,Central,Consumer,2024-08-07
+C00111,Carlos Kim,North,Consumer,2024-05-26
+C00112,Sarah Silva,North,Consumer,2024-02-17
+C00113,Arjun Muller,Central,Consumer,2023-01-16
+C00114,James Kumar,North,Small Business,2023-02-19
+C00115,John Garcia,Central,Consumer,2023-06-19
+C00116,Elizabeth Martinez,South,Consumer,2023-12-28
+C00117,James Andersson,South,Consumer,2022-07-25
+C00118,Linda Johnson,South,Consumer,2024-05-28
+C00119,Mary Williams,East,Small Business,2023-11-03
+C00120,John Muller,North,Consumer,2023-07-06
+C00121,Priya Nguyen,West,Consumer,2024-01-26
+C00122,Yuki Johnson,South,Consumer,2022-05-17
+C00123,Carlos Andersson,Central,Consumer,2023-01-28
+C00124,Sofia Silva,South,Consumer,2023-05-29
+C00125,John Brown,East,Small Business,2024-05-12
+C00126,Karen Jones,Central,Consumer,2024-02-08
+C00127,William Chen,South,Consumer,2022-11-25
+C00128,Wei Kumar,North,Consumer,2022-05-09
+C00129,Linda Brown,South,Small Business,2023-10-03
+C00130,Fatima Rossi,West,Consumer,2023-04-19
+C00131,Sarah Martinez,North,Consumer,2024-04-01
+C00132,David Patel,North,Consumer,2022-05-01
+C00133,Richard Rodriguez,North,Consumer,2023-05-19
+C00134,Sofia Chen,Central,Consumer,2023-11-19
+C00135,James Davis,West,Consumer,2022-10-04
+C00136,Sofia Nguyen,West,Consumer,2022-07-29
+C00137,Richard Nguyen,North,Consumer,2023-04-08
+C00138,Wei Nguyen,West,Consumer,2023-11-19
+C00139,Jennifer Williams,South,Consumer,2024-05-17
+C00140,Yuki Martinez,East,Small Business,2024-01-08
+C00141,Liam Patel,South,Consumer,2022-03-31
+C00142,Elizabeth Williams,West,Consumer,2023-04-19
+C00143,Arjun Johnson,East,Consumer,2023-08-08
+C00144,Elizabeth Rodriguez,South,Small Business,2023-07-19
+C00145,Carlos Kim,South,Corporate,2023-08-31
+C00146,Priya Garcia,South,Consumer,2022-01-08
+C00147,Liam Rodriguez,North,Consumer,2024-04-30
+C00148,Patricia Garcia,South,Corporate,2023-02-15
+C00149,Jennifer Muller,East,Small Business,2024-05-15
+C00150,Mary Silva,East,Consumer,2024-03-31
+C00151,John Garcia,Central,Small Business,2024-04-18
+C00152,Karen Muller,East,Small Business,2022-07-19
+C00153,Jennifer Jones,East,Corporate,2024-02-07
+C00154,Robert Smith,South,Consumer,2022-11-17
+C00155,Elizabeth Patel,North,Small Business,2023-07-03
+C00156,John Rodriguez,West,Consumer,2022-03-29
+C00157,Wei Williams,South,Corporate,2023-04-17
+C00158,Barbara Rossi,North,Small Business,2024-04-10
+C00159,Barbara Williams,North,Small Business,2024-07-27
+C00160,Fatima Davis,Central,Small Business,2023-07-29
+C00161,Robert Jones,West,Small Business,2024-03-10
+C00162,Patricia Kim,East,Small Business,2023-06-08
+C00163,Linda Nguyen,Central,Consumer,2023-03-28
+C00164,Joseph Smith,South,Small Business,2023-06-24
+C00165,Susan Davis,South,Consumer,2023-01-19
+C00166,Robert Miller,West,Small Business,2023-03-08
+C00167,Joseph Smith,East,Small Business,2022-06-16
+C00168,Jennifer Smith,West,Small Business,2024-02-28
+C00169,Patricia Johnson,West,Small Business,2022-05-24
+C00170,Jennifer Kim,North,Small Business,2022-12-09
+C00171,Sofia Silva,West,Consumer,2022-05-08
+C00172,Barbara Kim,West,Consumer,2022-08-18
+C00173,Patricia Chen,East,Small Business,2023-11-25
+C00174,Linda Garcia,South,Consumer,2024-08-17
+C00175,William Patel,Central,Consumer,2022-10-15
+C00176,James Silva,West,Consumer,2022-04-11
+C00177,Jessica Brown,West,Consumer,2022-04-13
+C00178,Thomas Rodriguez,East,Small Business,2023-10-14
+C00179,Arjun Chen,East,Consumer,2024-07-23
+C00180,Susan Brown,North,Corporate,2024-09-11
+C00181,Wei Andersson,East,Consumer,2024-05-19
+C00182,David Martinez,West,Consumer,2022-02-24
+C00183,Karen Chen,Central,Consumer,2022-11-30
+C00184,Carlos Muller,East,Consumer,2023-04-26
+C00185,Arjun Miller,North,Consumer,2024-07-01
+C00186,Fatima Chen,West,Consumer,2022-11-08
+C00187,Michael Muller,Central,Consumer,2023-10-26
+C00188,Yuki Davis,East,Consumer,2023-02-19
+C00189,Wei Andersson,North,Small Business,2022-03-09
+C00190,Fatima Muller,North,Consumer,2022-07-25
+C00191,Sarah Smith,West,Consumer,2023-07-19
+C00192,Yuki Muller,South,Consumer,2023-06-09
+C00193,James Davis,Central,Corporate,2022-06-05
+C00194,Elizabeth Andersson,West,Consumer,2023-01-09
+C00195,Yuki Rossi,Central,Consumer,2022-01-26
+C00196,Robert Davis,North,Small Business,2023-07-06
+C00197,James Silva,West,Small Business,2022-06-28
+C00198,Sofia Nguyen,Central,Consumer,2024-09-15
+C00199,Priya Nguyen,South,Small Business,2023-10-31
+C00200,Michael Smith,North,Consumer,2022-01-14
+C00201,Patricia Rossi,Central,Small Business,2022-07-01
+C00202,Elizabeth Johnson,South,Consumer,2022-12-08
+C00203,John Garcia,West,Consumer,2024-04-10
+C00204,Robert Dubois,Central,Small Business,2024-05-11
+C00205,Liam Nguyen,East,Consumer,2022-04-25
+C00206,Thomas Nguyen,West,Small Business,2023-04-30
+C00207,David Chen,East,Consumer,2023-02-07
+C00208,Mary Jones,North,Corporate,2024-06-19
+C00209,Patricia Rodriguez,South,Consumer,2022-04-28
+C00210,Elena Patel,North,Consumer,2023-10-14
+C00211,Ahmed Garcia,West,Consumer,2022-05-17
+C00212,Priya Miller,East,Small Business,2023-09-26
+C00213,Liam Nguyen,North,Consumer,2023-02-09
+C00214,Charles Brown,West,Consumer,2024-01-09
+C00215,William Brown,West,Consumer,2024-04-17
+C00216,Mary Silva,Central,Consumer,2023-07-21
+C00217,Elena Brown,East,Consumer,2023-04-29
+C00218,Thomas Kim,North,Consumer,2024-04-21
+C00219,David Rodriguez,South,Consumer,2023-04-20
+C00220,Linda Martinez,East,Consumer,2023-12-06
+C00221,Barbara Patel,Central,Consumer,2022-03-19
+C00222,John Patel,West,Corporate,2022-04-14
+C00223,Ahmed Muller,North,Consumer,2024-03-01
+C00224,Linda Muller,West,Small Business,2024-05-22
+C00225,Ahmed Rossi,East,Consumer,2024-04-29
+C00226,Richard Silva,North,Consumer,2024-09-14
+C00227,Elena Miller,North,Small Business,2024-09-26
+C00228,Jessica Davis,Central,Corporate,2022-10-25
+C00229,Liam Dubois,Central,Consumer,2023-04-20
+C00230,Thomas Nguyen,East,Consumer,2024-04-08
+C00231,Mary Williams,West,Consumer,2022-05-01
+C00232,Barbara Miller,South,Consumer,2023-12-26
+C00233,Ahmed Kim,West,Small Business,2024-03-01
+C00234,Liam Johnson,North,Small Business,2023-09-08
+C00235,Wei Kim,East,Corporate,2022-01-22
+C00236,Michael Nguyen,South,Small Business,2024-03-09
+C00237,Priya Patel,West,Small Business,2023-02-06
+C00238,Elizabeth Miller,East,Small Business,2024-09-11
+C00239,Richard Nguyen,South,Small Business,2022-01-04
+C00240,John Kumar,North,Corporate,2023-12-17
+C00241,Thomas Brown,North,Corporate,2023-03-04
+C00242,William Garcia,Central,Small Business,2024-02-26
+C00243,Liam Kim,Central,Small Business,2023-08-24
+C00244,Linda Dubois,Central,Consumer,2022-03-06
+C00245,Susan Martinez,North,Consumer,2024-04-10
+C00246,Elena Williams,Central,Small Business,2022-02-06
+C00247,Wei Muller,East,Consumer,2023-09-22
+C00248,Carlos Martinez,East,Consumer,2023-06-10
+C00249,Robert Williams,South,Consumer,2024-09-23
+C00250,David Brown,East,Consumer,2023-06-21
+C00251,Robert Rodriguez,North,Small Business,2024-05-27
+C00252,Joseph Davis,Central,Small Business,2022-02-05
+C00253,Yuki Silva,North,Small Business,2022-10-09
+C00254,Sarah Garcia,Central,Consumer,2022-02-18
+C00255,Richard Muller,North,Small Business,2024-06-13
+C00256,Charles Williams,South,Small Business,2023-06-01
+C00257,Richard Smith,Central,Small Business,2023-07-20
+C00258,James Kumar,West,Small Business,2023-10-21
+C00259,Elizabeth Brown,West,Small Business,2023-11-29
+C00260,William Kim,Central,Consumer,2022-06-08
+C00261,Elizabeth Chen,South,Corporate,2024-04-05
+C00262,Mary Nguyen,West,Consumer,2022-01-02
+C00263,Richard Nguyen,South,Consumer,2022-07-13
+C00264,Mary Kim,West,Consumer,2022-04-26
+C00265,Elizabeth Rodriguez,Central,Consumer,2024-02-01
+C00266,Liam Jones,North,Corporate,2023-09-25
+C00267,Sarah Brown,South,Small Business,2023-11-19
+C00268,Elizabeth Smith,North,Consumer,2022-03-09
+C00269,Susan Silva,Central,Small Business,2024-05-02
+C00270,Fatima Patel,North,Consumer,2022-05-11
+C00271,Joseph Andersson,South,Consumer,2022-11-20
+C00272,Mary Brown,East,Consumer,2022-06-08
+C00273,Wei Chen,South,Consumer,2022-06-13
+C00274,Arjun Chen,South,Corporate,2023-11-12
+C00275,Yuki Silva,South,Consumer,2022-06-01
+C00276,Ahmed Jones,Central,Consumer,2023-02-02
+C00277,Joseph Johnson,North,Consumer,2024-06-13
+C00278,Barbara Rossi,Central,Consumer,2023-10-14
+C00279,Susan Muller,North,Consumer,2024-08-26
+C00280,Sarah Dubois,North,Small Business,2023-03-30
+C00281,Sofia Williams,North,Consumer,2022-10-22
+C00282,Michael Muller,West,Consumer,2022-01-02
+C00283,Jessica Johnson,West,Consumer,2023-07-13
+C00284,Linda Rossi,West,Consumer,2023-04-01
+C00285,Jennifer Chen,West,Small Business,2024-09-01
+C00286,Linda Chen,East,Consumer,2024-02-19
+C00287,Ahmed Nguyen,North,Consumer,2022-08-31
+C00288,Karen Smith,East,Consumer,2023-09-11
+C00289,Mary Smith,North,Consumer,2022-11-23
+C00290,Karen Miller,North,Consumer,2022-02-03
+C00291,Sarah Silva,North,Consumer,2023-11-21
+C00292,William Williams,Central,Consumer,2022-04-15
+C00293,David Rossi,Central,Corporate,2023-09-09
+C00294,Karen Silva,West,Consumer,2023-09-18
+C00295,Patricia Garcia,West,Consumer,2024-06-13
+C00296,David Martinez,East,Small Business,2023-10-06
+C00297,Barbara Kim,East,Consumer,2023-08-17
+C00298,Susan Brown,West,Small Business,2022-11-26
+C00299,Charles Patel,East,Small Business,2023-03-10
+C00300,Sofia Rodriguez,East,Consumer,2022-08-17
+C00301,Fatima Silva,South,Consumer,2023-02-08
+C00302,Elena Dubois,West,Small Business,2024-05-18
+C00303,Yuki Rossi,Central,Consumer,2024-02-07
+C00304,Priya Johnson,East,Small Business,2023-03-15
+C00305,Jennifer Miller,South,Consumer,2024-06-19
+C00306,Barbara Williams,West,Consumer,2024-07-01
+C00307,Robert Davis,South,Consumer,2024-01-04
+C00308,Susan Nguyen,East,Consumer,2023-09-25
+C00309,David Silva,East,Consumer,2022-03-11
+C00310,Michael Garcia,West,Consumer,2023-10-25
+C00311,Robert Jones,North,Consumer,2023-02-04
+C00312,Patricia Kim,South,Consumer,2023-08-22
+C00313,Arjun Nguyen,South,Consumer,2024-06-02
+C00314,David Smith,East,Consumer,2023-11-01
+C00315,Ahmed Dubois,South,Consumer,2024-08-06
+C00316,Barbara Jones,West,Small Business,2022-12-23
+C00317,Joseph Silva,East,Consumer,2023-03-23
+C00318,Susan Johnson,North,Consumer,2022-02-04
+C00319,James Williams,East,Corporate,2022-02-21
+C00320,Thomas Andersson,North,Consumer,2022-11-13
+C00321,Sofia Chen,North,Consumer,2024-09-13
+C00322,Michael Silva,East,Consumer,2024-08-31
+C00323,Wei Kim,North,Corporate,2023-06-17
+C00324,Linda Rossi,North,Small Business,2024-01-03
+C00325,Jennifer Jones,Central,Consumer,2022-06-06
+C00326,Wei Chen,West,Consumer,2023-10-24
+C00327,Linda Silva,East,Consumer,2023-09-10
+C00328,Susan Brown,West,Consumer,2024-07-19
+C00329,Priya Kumar,West,Consumer,2023-10-21
+C00330,Sarah Garcia,South,Small Business,2023-10-20
+C00331,Richard Rodriguez,North,Consumer,2024-09-20
+C00332,Mary Garcia,South,Small Business,2022-04-20
+C00333,Sarah Kim,West,Consumer,2024-03-18
+C00334,Sofia Miller,North,Consumer,2024-03-28
+C00335,Michael Silva,West,Consumer,2023-01-02
+C00336,Thomas Muller,East,Consumer,2023-03-25
+C00337,Linda Nguyen,West,Small Business,2023-08-11
+C00338,Priya Davis,East,Consumer,2023-05-16
+C00339,Elena Patel,North,Consumer,2022-01-26
+C00340,Patricia Silva,South,Consumer,2022-09-04
+C00341,Barbara Chen,North,Consumer,2024-01-17
+C00342,Joseph Silva,South,Corporate,2022-01-08
+C00343,Priya Kim,South,Consumer,2022-03-02
+C00344,Jessica Dubois,West,Corporate,2023-05-01
+C00345,Linda Kumar,North,Small Business,2023-06-17
+C00346,Richard Brown,Central,Consumer,2023-02-04
+C00347,Barbara Martinez,West,Consumer,2022-05-04
+C00348,Thomas Martinez,North,Corporate,2022-10-23
+C00349,Arjun Miller,West,Consumer,2023-03-01
+C00350,Joseph Kim,West,Small Business,2023-06-11
+C00351,David Rodriguez,West,Consumer,2024-06-03
+C00352,Elizabeth Davis,West,Consumer,2022-12-27
+C00353,Patricia Rossi,West,Small Business,2022-09-13
+C00354,Ahmed Rossi,West,Consumer,2023-11-03
+C00355,John Silva,South,Small Business,2023-02-28
+C00356,Priya Muller,North,Consumer,2023-04-18
+C00357,Michael Chen,South,Consumer,2022-08-19
+C00358,Liam Johnson,South,Consumer,2023-08-18
+C00359,Elizabeth Miller,West,Consumer,2023-11-07
+C00360,Susan Andersson,West,Consumer,2022-12-08
+C00361,Richard Nguyen,South,Consumer,2024-06-24
+C00362,David Davis,South,Consumer,2023-08-19
+C00363,Richard Muller,Central,Small Business,2023-09-10
+C00364,Priya Davis,Central,Small Business,2022-03-11
+C00365,Fatima Williams,North,Consumer,2023-06-17
+C00366,Jennifer Muller,Central,Consumer,2023-01-14
+C00367,Arjun Patel,North,Corporate,2022-11-30
+C00368,Joseph Kumar,South,Consumer,2023-09-27
+C00369,Barbara Muller,South,Corporate,2024-04-01
+C00370,Liam Kim,North,Corporate,2023-04-20
+C00371,Karen Davis,West,Consumer,2022-01-21
+C00372,Karen Garcia,South,Small Business,2023-11-03
+C00373,Priya Kumar,East,Consumer,2024-05-14
+C00374,Patricia Smith,South,Consumer,2022-03-05
+C00375,Mary Rodriguez,East,Small Business,2023-01-16
+C00376,Elena Brown,Central,Consumer,2022-10-07
+C00377,Joseph Jones,South,Consumer,2024-02-26
+C00378,Jennifer Rossi,West,Small Business,2023-02-02
+C00379,Susan Garcia,North,Consumer,2023-06-17
+C00380,Joseph Williams,North,Small Business,2024-03-29
+C00381,Karen Rossi,West,Small Business,2022-12-13
+C00382,Arjun Smith,Central,Consumer,2022-05-13
+C00383,Arjun Nguyen,North,Consumer,2023-08-30
+C00384,Ahmed Kim,South,Consumer,2023-02-03
+C00385,Ahmed Silva,Central,Consumer,2022-01-26
+C00386,Yuki Kim,Central,Small Business,2024-08-23
+C00387,Jennifer Chen,West,Small Business,2022-10-05
+C00388,Charles Jones,West,Consumer,2022-06-02
+C00389,William Rossi,North,Small Business,2022-02-28
+C00390,Charles Rodriguez,North,Consumer,2024-09-10
+C00391,Charles Miller,West,Consumer,2022-10-31
+C00392,Michael Davis,West,Consumer,2023-05-25
+C00393,Karen Brown,East,Consumer,2022-11-03
+C00394,Karen Williams,South,Consumer,2022-05-11
+C00395,John Jones,North,Consumer,2024-04-07
+C00396,Arjun Garcia,South,Small Business,2023-04-27
+C00397,Michael Jones,North,Consumer,2022-05-18
+C00398,Priya Rossi,North,Consumer,2022-08-30
+C00399,Thomas Chen,East,Small Business,2023-01-07
+C00400,Elena Brown,Central,Consumer,2022-04-09
+C00401,Robert Rodriguez,West,Small Business,2023-10-14
+C00402,Elizabeth Kim,North,Consumer,2023-01-28
+C00403,David Smith,West,Consumer,2023-10-21
+C00404,Sarah Davis,East,Consumer,2022-10-07
+C00405,Carlos Davis,South,Small Business,2023-10-22
+C00406,Richard Andersson,North,Corporate,2023-03-27
+C00407,Linda Kim,North,Small Business,2023-03-20
+C00408,Charles Williams,North,Corporate,2023-10-22
+C00409,Elena Nguyen,Central,Corporate,2024-01-08
+C00410,Charles Andersson,North,Consumer,2024-07-31
+C00411,Linda Martinez,North,Consumer,2023-10-23
+C00412,Linda Davis,West,Consumer,2024-08-25
+C00413,Thomas Brown,West,Small Business,2022-07-25
+C00414,Elena Rossi,South,Consumer,2023-10-06
+C00415,Mary Kim,East,Small Business,2023-04-20
+C00416,Yuki Johnson,North,Consumer,2024-03-22
+C00417,Wei Rodriguez,South,Consumer,2024-07-17
+C00418,Ahmed Rossi,Central,Consumer,2023-03-16
+C00419,Charles Nguyen,North,Corporate,2022-05-02
+C00420,Liam Miller,Central,Corporate,2023-11-03
+C00421,Richard Davis,West,Consumer,2022-09-10
+C00422,William Chen,South,Consumer,2022-06-30
+C00423,Mary Silva,North,Corporate,2023-12-29
+C00424,Wei Patel,West,Consumer,2023-05-04
+C00425,Sofia Williams,South,Consumer,2023-08-14
+C00426,Michael Patel,West,Small Business,2023-11-20
+C00427,Elizabeth Kumar,West,Small Business,2022-06-10
+C00428,Patricia Davis,North,Small Business,2024-05-31
+C00429,Ahmed Martinez,West,Small Business,2023-10-20
+C00430,Mary Rodriguez,South,Consumer,2023-09-07
+C00431,Elizabeth Patel,West,Consumer,2023-06-09
+C00432,Ahmed Dubois,South,Consumer,2024-08-16
+C00433,Sofia Andersson,Central,Consumer,2022-11-02
+C00434,Karen Martinez,Central,Consumer,2023-03-25
+C00435,Priya Davis,North,Consumer,2023-01-27
+C00436,Yuki Kim,North,Consumer,2022-06-16
+C00437,Susan Williams,North,Consumer,2023-04-26
+C00438,Patricia Johnson,East,Consumer,2023-07-16
+C00439,Charles Muller,West,Consumer,2022-01-23
+C00440,Barbara Garcia,North,Small Business,2023-11-27
+C00441,Richard Brown,North,Small Business,2023-06-05
+C00442,Karen Muller,East,Small Business,2022-08-24
+C00443,Yuki Kim,North,Consumer,2024-09-25
+C00444,Joseph Silva,South,Small Business,2023-05-12
+C00445,David Kumar,North,Consumer,2023-01-19
+C00446,Robert Kim,West,Consumer,2024-09-06
+C00447,Jennifer Muller,Central,Small Business,2023-08-10
+C00448,Robert Nguyen,South,Consumer,2022-02-26
+C00449,Karen Muller,East,Corporate,2023-04-07
+C00450,Elena Brown,North,Corporate,2023-12-08
+C00451,Sofia Brown,West,Consumer,2024-06-28
+C00452,Yuki Dubois,West,Corporate,2023-09-03
+C00453,Barbara Martinez,South,Consumer,2022-03-10
+C00454,Yuki Nguyen,South,Consumer,2022-09-04
+C00455,Elizabeth Kim,South,Consumer,2024-01-30
+C00456,William Dubois,West,Consumer,2024-05-03
+C00457,Sarah Smith,West,Consumer,2022-12-12
+C00458,Sofia Chen,Central,Consumer,2022-08-25
+C00459,Elizabeth Patel,West,Consumer,2024-07-25
+C00460,Priya Rossi,North,Small Business,2023-05-10
+C00461,Thomas Andersson,South,Corporate,2022-07-11
+C00462,Fatima Rodriguez,North,Small Business,2024-08-25
+C00463,Ahmed Miller,West,Consumer,2023-02-22
+C00464,Fatima Johnson,South,Consumer,2024-09-07
+C00465,Thomas Muller,West,Consumer,2024-03-02
+C00466,Elizabeth Jones,Central,Small Business,2024-04-26
+C00467,Mary Kumar,South,Small Business,2023-11-01
+C00468,Sofia Silva,East,Small Business,2023-06-30
+C00469,Charles Muller,North,Consumer,2023-04-05
+C00470,Patricia Nguyen,West,Consumer,2022-06-14
+C00471,Joseph Dubois,Central,Consumer,2022-05-07
+C00472,Elena Muller,North,Consumer,2023-03-28
+C00473,Linda Patel,East,Consumer,2023-04-09
+C00474,Karen Rossi,North,Consumer,2022-04-16
+C00475,Barbara Martinez,North,Consumer,2022-07-15
+C00476,John Davis,West,Consumer,2024-01-28
+C00477,Linda Rossi,North,Small Business,2024-07-04
+C00478,Michael Kumar,Central,Corporate,2024-03-04
+C00479,Linda Garcia,North,Consumer,2022-10-04
+C00480,John Kumar,North,Consumer,2022-07-04
+C00481,Arjun Andersson,Central,Small Business,2023-09-08
+C00482,Jessica Smith,South,Corporate,2023-05-21
+C00483,Richard Johnson,North,Small Business,2023-10-30
+C00484,Wei Jones,East,Consumer,2023-03-04
+C00485,Mary Jones,Central,Consumer,2023-12-21
+C00486,Jennifer Rossi,North,Small Business,2022-10-24
+C00487,Mary Silva,West,Consumer,2024-09-15
+C00488,Arjun Williams,Central,Consumer,2022-09-12
+C00489,Yuki Smith,South,Consumer,2022-09-02
+C00490,Joseph Rossi,West,Small Business,2022-12-14
+C00491,Arjun Muller,Central,Consumer,2023-09-13
+C00492,Robert Smith,North,Small Business,2024-09-06
+C00493,Linda Silva,North,Small Business,2022-11-22
+C00494,Linda Williams,West,Consumer,2022-08-16
+C00495,Priya Williams,West,Consumer,2022-11-02
+C00496,Patricia Patel,South,Small Business,2024-01-30
+C00497,Joseph Rossi,West,Small Business,2022-03-01
+C00498,Carlos Johnson,East,Consumer,2022-01-01
+C00499,Linda Williams,South,Small Business,2024-05-14
+C00500,Thomas Davis,West,Corporate,2023-04-25
+C00501,Jessica Andersson,Central,Small Business,2022-10-08
+C00502,Yuki Dubois,Central,Consumer,2023-12-01
+C00503,Yuki Andersson,Central,Consumer,2023-07-14
+C00504,Fatima Brown,North,Consumer,2023-12-05
+C00505,Sofia Dubois,South,Consumer,2022-01-13
+C00506,Carlos Nguyen,West,Consumer,2022-10-25
+C00507,Linda Johnson,West,Consumer,2024-06-21
+C00508,Wei Kumar,South,Small Business,2024-06-11
+C00509,Robert Chen,Central,Small Business,2022-02-04
+C00510,John Kumar,Central,Consumer,2023-06-06
+C00511,Fatima Rodriguez,Central,Small Business,2022-04-25
+C00512,Sofia Smith,North,Small Business,2024-04-09
+C00513,Arjun Patel,East,Consumer,2022-03-24
+C00514,Karen Davis,Central,Consumer,2022-12-07
+C00515,Charles Brown,West,Consumer,2024-02-28
+C00516,Barbara Kim,Central,Consumer,2022-08-23
+C00517,Carlos Rodriguez,East,Consumer,2022-09-29
+C00518,Ahmed Rossi,South,Consumer,2022-03-12
+C00519,Linda Andersson,South,Corporate,2022-02-15
+C00520,Thomas Williams,North,Consumer,2022-11-28
+C00521,Sofia Muller,East,Consumer,2022-10-08
+C00522,Liam Davis,North,Consumer,2022-01-08
+C00523,Priya Muller,North,Consumer,2022-12-05
+C00524,David Rodriguez,West,Consumer,2022-02-14
+C00525,Priya Andersson,Central,Consumer,2024-03-29
+C00526,William Nguyen,Central,Consumer,2022-01-30
+C00527,James Davis,East,Consumer,2022-10-02
+C00528,Priya Kim,West,Consumer,2024-06-26
+C00529,Michael Jones,North,Consumer,2024-04-03
+C00530,Richard Silva,North,Consumer,2022-02-21
+C00531,Mary Brown,South,Consumer,2023-11-18
+C00532,Charles Silva,South,Small Business,2023-01-05
+C00533,Elena Andersson,South,Corporate,2022-03-13
+C00534,David Martinez,South,Consumer,2023-10-31
+C00535,Sarah Andersson,Central,Consumer,2022-01-11
+C00536,Karen Garcia,North,Corporate,2024-05-23
+C00537,Jessica Davis,Central,Small Business,2022-03-08
+C00538,William Smith,North,Consumer,2023-06-17
+C00539,Liam Muller,North,Consumer,2024-06-29
+C00540,Jennifer Chen,East,Small Business,2024-03-27
+C00541,Priya Garcia,West,Consumer,2022-10-03
+C00542,Robert Williams,Central,Corporate,2024-03-09
+C00543,Linda Chen,East,Consumer,2023-03-07
+C00544,Patricia Smith,East,Consumer,2023-08-25
+C00545,Michael Brown,North,Small Business,2022-06-15
+C00546,Charles Martinez,West,Consumer,2024-08-04
+C00547,Carlos Chen,South,Small Business,2022-12-07
+C00548,Mary Kumar,North,Corporate,2023-08-29
+C00549,Patricia Muller,North,Consumer,2023-03-31
+C00550,Carlos Williams,Central,Consumer,2022-01-28
+C00551,Arjun Chen,South,Consumer,2022-02-08
+C00552,Carlos Silva,East,Consumer,2022-01-24
+C00553,John Martinez,South,Consumer,2024-04-15
+C00554,Sarah Rodriguez,Central,Consumer,2023-03-21
+C00555,Karen Muller,South,Consumer,2024-08-19
+C00556,John Rodriguez,East,Consumer,2023-06-26
+C00557,Carlos Andersson,South,Small Business,2024-02-01
+C00558,Elena Muller,East,Small Business,2023-12-11
+C00559,William Miller,East,Consumer,2022-08-24
+C00560,Fatima Williams,North,Small Business,2023-08-06
+C00561,Fatima Muller,West,Consumer,2022-07-27
+C00562,Sofia Andersson,North,Consumer,2022-11-22
+C00563,Thomas Jones,East,Consumer,2022-02-09
+C00564,Priya Johnson,West,Consumer,2024-08-22
+C00565,Priya Chen,East,Consumer,2024-05-19
+C00566,David Nguyen,North,Corporate,2023-11-12
+C00567,Elena Kumar,North,Small Business,2024-08-07
+C00568,Wei Brown,South,Consumer,2023-05-07
+C00569,Joseph Chen,Central,Consumer,2024-02-01
+C00570,Priya Nguyen,East,Consumer,2023-12-27
+C00571,Joseph Brown,West,Consumer,2023-08-26
+C00572,Linda Dubois,North,Consumer,2024-09-23
+C00573,Linda Andersson,South,Consumer,2022-10-26
+C00574,Joseph Nguyen,South,Small Business,2022-01-31
+C00575,Arjun Chen,Central,Consumer,2024-02-02
+C00576,Priya Kumar,West,Consumer,2023-09-25
+C00577,Liam Silva,Central,Consumer,2024-01-04
+C00578,Linda Miller,North,Consumer,2024-09-21
+C00579,John Smith,North,Consumer,2022-12-08
+C00580,Yuki Rodriguez,West,Small Business,2024-07-26
+C00581,Linda Rodriguez,West,Consumer,2023-09-06
+C00582,Jennifer Chen,South,Consumer,2023-11-19
+C00583,Richard Johnson,North,Consumer,2024-03-19
+C00584,Mary Davis,North,Small Business,2024-05-18
+C00585,Jennifer Johnson,North,Consumer,2022-08-31
+C00586,Yuki Johnson,South,Small Business,2022-10-23
+C00587,Liam Miller,East,Consumer,2024-07-18
+C00588,Priya Kim,West,Consumer,2023-10-03
+C00589,Arjun Muller,West,Small Business,2023-10-10
+C00590,Patricia Davis,East,Consumer,2023-03-30
+C00591,Sarah Nguyen,Central,Small Business,2023-06-11
+C00592,Patricia Kim,Central,Small Business,2023-07-07
+C00593,Susan Johnson,North,Consumer,2023-02-06
+C00594,Barbara Muller,South,Consumer,2022-02-24
+C00595,Elena Rossi,South,Small Business,2023-05-27
+C00596,Sarah Davis,North,Consumer,2022-03-04
+C00597,Fatima Chen,Central,Consumer,2024-01-11
+C00598,Mary Patel,East,Corporate,2023-07-19
+C00599,Charles Muller,South,Corporate,2024-07-31
+C00600,Thomas Smith,Central,Small Business,2023-11-07
+C00601,Joseph Chen,West,Corporate,2023-11-07
+C00602,Thomas Brown,West,Consumer,2024-02-01
+C00603,Charles Andersson,West,Consumer,2022-04-16
+C00604,Jessica Miller,East,Consumer,2022-12-27
+C00605,Sarah Nguyen,West,Consumer,2023-04-03
+C00606,Richard Rossi,East,Consumer,2024-05-08
+C00607,David Rodriguez,Central,Small Business,2023-12-21
+C00608,Patricia Kim,West,Consumer,2023-10-10
+C00609,Linda Miller,North,Small Business,2023-01-30
+C00610,Barbara Davis,East,Consumer,2024-09-01
+C00611,William Williams,West,Small Business,2022-03-27
+C00612,Priya Patel,North,Small Business,2024-02-22
+C00613,Jennifer Johnson,North,Consumer,2022-08-30
+C00614,Ahmed Williams,South,Consumer,2023-02-18
+C00615,Sofia Chen,Central,Consumer,2023-08-19
+C00616,James Dubois,East,Consumer,2023-02-02
+C00617,Yuki Patel,North,Consumer,2022-08-08
+C00618,Liam Rodriguez,North,Consumer,2024-02-10
+C00619,Priya Smith,West,Consumer,2022-01-18
+C00620,Barbara Kumar,East,Small Business,2023-10-04
+C00621,Patricia Silva,West,Consumer,2023-07-03
+C00622,Wei Davis,North,Consumer,2024-04-09
+C00623,Fatima Rodriguez,Central,Consumer,2024-06-18
+C00624,Yuki Patel,North,Corporate,2023-04-19
+C00625,John Dubois,East,Corporate,2024-07-31
+C00626,David Muller,South,Consumer,2022-03-17
+C00627,Elena Martinez,South,Consumer,2022-05-21
+C00628,Linda Davis,Central,Consumer,2024-09-08
+C00629,James Muller,Central,Consumer,2023-10-05
+C00630,Ahmed Silva,North,Small Business,2023-12-26
+C00631,Sarah Jones,East,Consumer,2023-11-22
+C00632,James Rossi,South,Small Business,2022-02-14
+C00633,Elena Nguyen,North,Consumer,2022-12-21
+C00634,Sarah Nguyen,East,Consumer,2024-03-17
+C00635,Liam Garcia,East,Consumer,2022-02-13
+C00636,James Muller,Central,Small Business,2022-02-19
+C00637,Yuki Patel,Central,Consumer,2024-05-03
+C00638,Jessica Patel,South,Consumer,2024-08-09
+C00639,Wei Garcia,West,Corporate,2023-08-17
+C00640,Charles Johnson,West,Consumer,2022-07-10
+C00641,Mary Davis,North,Consumer,2024-08-10
+C00642,Joseph Smith,East,Small Business,2023-12-20
+C00643,Sarah Patel,North,Consumer,2024-08-18
+C00644,Yuki Martinez,West,Consumer,2022-12-24
+C00645,Linda Johnson,East,Small Business,2024-03-19
+C00646,Carlos Williams,Central,Consumer,2022-09-11
+C00647,Arjun Johnson,Central,Consumer,2024-06-20
+C00648,Thomas Williams,South,Small Business,2024-02-01
+C00649,Thomas Miller,East,Consumer,2024-07-07
+C00650,Karen Dubois,East,Consumer,2024-02-27
+C00651,James Kim,Central,Consumer,2024-04-27
+C00652,David Rodriguez,South,Corporate,2024-04-19
+C00653,Sofia Kim,South,Consumer,2022-05-29
+C00654,Sofia Andersson,East,Consumer,2023-12-21
+C00655,Richard Miller,Central,Corporate,2024-04-19
+C00656,Priya Nguyen,West,Consumer,2024-06-11
+C00657,Karen Kim,East,Consumer,2023-05-13
+C00658,Michael Nguyen,North,Consumer,2022-11-28
+C00659,Joseph Williams,East,Consumer,2022-03-11
+C00660,Linda Brown,West,Small Business,2024-03-21
+C00661,Robert Johnson,Central,Consumer,2023-10-17
+C00662,Wei Kim,North,Consumer,2022-10-10
+C00663,Ahmed Garcia,North,Corporate,2024-02-05
+C00664,Jennifer Dubois,South,Consumer,2022-08-15
+C00665,Yuki Patel,South,Small Business,2023-12-31
+C00666,John Kim,East,Consumer,2024-01-12
+C00667,Ahmed Kumar,West,Consumer,2022-11-22
+C00668,Carlos Silva,West,Corporate,2023-01-06
+C00669,Priya Davis,West,Consumer,2024-01-25
+C00670,Elizabeth Johnson,West,Consumer,2023-06-29
+C00671,Elizabeth Muller,West,Consumer,2024-08-10
+C00672,Priya Jones,North,Consumer,2023-12-16
+C00673,Patricia Muller,Central,Small Business,2023-05-24
+C00674,Michael Garcia,Central,Small Business,2023-11-29
+C00675,Liam Muller,North,Consumer,2023-12-30
+C00676,Jennifer Garcia,West,Consumer,2022-05-23
+C00677,Thomas Patel,West,Consumer,2022-04-29
+C00678,Thomas Williams,East,Consumer,2023-07-04
+C00679,Patricia Rossi,North,Small Business,2023-01-23
+C00680,Susan Smith,Central,Consumer,2022-05-05
+C00681,Carlos Andersson,West,Consumer,2022-08-23
+C00682,Priya Smith,South,Consumer,2023-06-25
+C00683,Jessica Williams,Central,Consumer,2022-04-29
+C00684,Ahmed Dubois,West,Consumer,2024-05-29
+C00685,Arjun Andersson,East,Consumer,2022-11-13
+C00686,Wei Williams,Central,Corporate,2022-11-09
+C00687,Karen Kumar,North,Consumer,2023-09-20
+C00688,Priya Chen,North,Consumer,2022-01-20
+C00689,John Nguyen,West,Consumer,2024-07-23
+C00690,Sarah Kumar,South,Small Business,2022-12-22
+C00691,Liam Silva,South,Corporate,2022-03-14
+C00692,Michael Silva,North,Small Business,2024-02-24
+C00693,Fatima Dubois,South,Consumer,2024-02-25
+C00694,Ahmed Davis,North,Consumer,2023-03-09
+C00695,Jennifer Jones,Central,Consumer,2022-06-29
+C00696,Karen Rodriguez,North,Consumer,2022-07-09
+C00697,Robert Martinez,East,Small Business,2022-03-16
+C00698,Sofia Martinez,West,Consumer,2023-09-23
+C00699,Carlos Silva,Central,Consumer,2023-08-19
+C00700,Barbara Andersson,West,Consumer,2022-04-03
+C00701,Mary Williams,South,Consumer,2022-09-25
+C00702,Jessica Garcia,South,Consumer,2023-03-27
+C00703,Fatima Brown,Central,Consumer,2023-08-21
+C00704,Joseph Andersson,Central,Consumer,2022-06-04
+C00705,Mary Kim,South,Consumer,2023-08-11
+C00706,Thomas Rodriguez,East,Corporate,2023-08-06
+C00707,Richard Nguyen,North,Small Business,2023-02-04
+C00708,Thomas Martinez,North,Consumer,2024-09-04
+C00709,Carlos Silva,South,Consumer,2022-04-03
+C00710,Elena Andersson,East,Consumer,2023-12-25
+C00711,Elizabeth Rossi,West,Consumer,2023-09-30
+C00712,Wei Silva,West,Consumer,2022-07-19
+C00713,Ahmed Nguyen,South,Consumer,2022-09-06
+C00714,Fatima Rossi,West,Consumer,2022-03-04
+C00715,Sarah Kumar,South,Small Business,2023-11-04
+C00716,Patricia Kim,West,Consumer,2023-01-19
+C00717,Wei Nguyen,South,Small Business,2023-05-29
+C00718,Fatima Garcia,West,Consumer,2023-03-04
+C00719,James Jones,West,Small Business,2024-05-15
+C00720,Fatima Chen,West,Small Business,2023-03-31
+C00721,Sarah Chen,Central,Consumer,2023-05-15
+C00722,Arjun Chen,East,Consumer,2024-04-04
+C00723,Michael Chen,East,Corporate,2023-08-14
+C00724,Wei Williams,South,Small Business,2022-04-16
+C00725,Jennifer Kumar,East,Small Business,2022-09-18
+C00726,Sarah Miller,West,Small Business,2024-07-31
+C00727,Patricia Jones,North,Corporate,2023-03-23
+C00728,Elizabeth Dubois,Central,Small Business,2023-03-20
+C00729,Wei Jones,South,Consumer,2022-08-05
+C00730,Michael Kumar,Central,Consumer,2023-05-21
+C00731,Charles Kim,East,Consumer,2023-01-28
+C00732,Elizabeth Muller,South,Consumer,2024-05-08
+C00733,Arjun Rodriguez,North,Small Business,2023-02-19
+C00734,Susan Dubois,South,Consumer,2022-06-29
+C00735,Linda Johnson,East,Small Business,2022-06-15
+C00736,Arjun Smith,South,Consumer,2022-10-24
+C00737,Charles Nguyen,North,Consumer,2024-01-03
+C00738,Mary Rodriguez,North,Consumer,2023-08-06
+C00739,Joseph Andersson,South,Small Business,2022-06-16
+C00740,William Rodriguez,South,Consumer,2023-07-26
+C00741,Elizabeth Davis,West,Consumer,2023-06-25
+C00742,Charles Kim,Central,Consumer,2023-05-16
+C00743,Richard Kumar,West,Consumer,2023-06-17
+C00744,Sofia Muller,North,Consumer,2022-12-04
+C00745,Michael Muller,Central,Small Business,2024-06-14
+C00746,William Williams,East,Consumer,2023-09-04
+C00747,Yuki Kumar,North,Small Business,2023-11-20
+C00748,James Kumar,North,Consumer,2023-06-20
+C00749,Michael Nguyen,East,Small Business,2022-10-13
+C00750,Joseph Williams,North,Consumer,2023-02-09
+C00751,Sarah Andersson,South,Consumer,2023-10-10
+C00752,Jennifer Patel,North,Small Business,2022-02-11
+C00753,Karen Muller,North,Consumer,2024-04-27
+C00754,Joseph Dubois,Central,Consumer,2024-03-14
+C00755,Charles Williams,South,Consumer,2022-11-18
+C00756,Liam Brown,East,Small Business,2022-03-10
+C00757,William Chen,Central,Small Business,2023-10-19
+C00758,Yuki Johnson,West,Consumer,2023-01-09
+C00759,Linda Rodriguez,East,Small Business,2022-03-08
+C00760,Michael Dubois,North,Small Business,2024-01-22
+C00761,Fatima Miller,West,Consumer,2023-09-13
+C00762,Elena Muller,South,Consumer,2023-01-26
+C00763,Elena Brown,Central,Consumer,2023-03-10
+C00764,Barbara Martinez,South,Small Business,2024-01-29
+C00765,Linda Davis,East,Small Business,2023-01-22
+C00766,Elizabeth Patel,West,Consumer,2024-05-18
+C00767,Sarah Patel,East,Consumer,2023-08-08
+C00768,Thomas Garcia,East,Consumer,2024-08-16
+C00769,Fatima Smith,East,Small Business,2024-01-19
+C00770,Susan Kim,West,Small Business,2023-04-09
+C00771,Priya Silva,Central,Consumer,2022-03-05
+C00772,Sofia Dubois,West,Small Business,2024-09-10
+C00773,Linda Smith,East,Consumer,2022-05-31
+C00774,Robert Silva,East,Consumer,2023-02-20
+C00775,Jennifer Nguyen,Central,Consumer,2023-10-29
+C00776,Linda Kim,Central,Small Business,2024-06-19
+C00777,Arjun Garcia,North,Corporate,2022-09-07
+C00778,Carlos Martinez,North,Consumer,2022-11-23
+C00779,Jessica Kim,North,Consumer,2023-07-26
+C00780,Charles Chen,North,Consumer,2022-12-27
+C00781,Arjun Garcia,North,Corporate,2022-11-09
+C00782,Patricia Silva,East,Consumer,2023-12-08
+C00783,John Martinez,South,Consumer,2024-07-27
+C00784,Charles Chen,West,Consumer,2023-10-01
+C00785,Jessica Andersson,Central,Consumer,2023-08-02
+C00786,Yuki Jones,West,Consumer,2023-01-07
+C00787,Sarah Brown,Central,Consumer,2023-03-20
+C00788,Susan Chen,Central,Small Business,2024-07-28
+C00789,Arjun Rossi,North,Corporate,2022-12-29
+C00790,Wei Rodriguez,West,Corporate,2023-09-24
+C00791,Arjun Andersson,West,Small Business,2022-03-11
+C00792,Linda Patel,North,Consumer,2023-02-18
+C00793,Susan Nguyen,North,Small Business,2023-03-29
+C00794,Carlos Chen,East,Consumer,2022-01-25
+C00795,Jennifer Williams,West,Corporate,2023-11-17
+C00796,Mary Jones,Central,Consumer,2024-05-31
+C00797,William Davis,North,Consumer,2022-03-20
+C00798,Fatima Davis,South,Corporate,2023-12-04
+C00799,Wei Kumar,West,Consumer,2023-09-09
+C00800,Carlos Silva,West,Consumer,2023-05-17
+C00801,David Williams,North,Consumer,2024-03-11
+C00802,Wei Davis,Central,Small Business,2023-11-23
+C00803,Yuki Miller,East,Consumer,2022-05-08
+C00804,Elizabeth Andersson,East,Small Business,2023-11-01
+C00805,Elena Johnson,East,Consumer,2023-02-21
+C00806,Karen Silva,North,Corporate,2024-07-31
+C00807,Linda Davis,East,Consumer,2024-01-30
+C00808,Susan Davis,North,Consumer,2024-03-09
+C00809,Yuki Muller,South,Consumer,2024-04-06
+C00810,Elena Brown,North,Consumer,2024-09-02
+C00811,Sofia Johnson,Central,Small Business,2024-05-14
+C00812,Liam Jones,East,Small Business,2023-09-10
+C00813,Sofia Williams,North,Consumer,2022-10-31
+C00814,James Martinez,Central,Consumer,2024-05-25
+C00815,David Kim,South,Consumer,2023-02-23
+C00816,Thomas Silva,North,Consumer,2024-09-18
+C00817,Richard Muller,West,Corporate,2022-05-07
+C00818,Priya Rossi,East,Small Business,2022-01-16
+C00819,Jennifer Andersson,West,Consumer,2023-07-14
+C00820,Jessica Miller,East,Small Business,2024-03-10
+C00821,Richard Kim,Central,Consumer,2022-05-07
+C00822,Ahmed Nguyen,West,Consumer,2023-07-22
+C00823,Ahmed Kim,West,Consumer,2023-07-07
+C00824,Yuki Williams,North,Consumer,2023-07-25
+C00825,Arjun Garcia,Central,Consumer,2024-04-05
+C00826,Susan Williams,Central,Small Business,2022-05-24
+C00827,Carlos Jones,North,Small Business,2022-12-04
+C00828,Liam Dubois,South,Consumer,2022-08-09
+C00829,Elizabeth Rossi,North,Consumer,2022-01-01
+C00830,Patricia Smith,East,Consumer,2022-08-21
+C00831,Linda Rossi,Central,Corporate,2022-10-21
+C00832,Carlos Silva,Central,Consumer,2023-09-02
+C00833,Ahmed Kumar,West,Small Business,2023-04-12
+C00834,Liam Miller,Central,Consumer,2023-05-28
+C00835,Sarah Kim,West,Small Business,2023-12-10
+C00836,Thomas Davis,South,Small Business,2022-02-15
+C00837,Barbara Dubois,South,Small Business,2023-04-14
+C00838,Joseph Smith,West,Small Business,2024-07-17
+C00839,Joseph Patel,West,Consumer,2022-08-04
+C00840,Linda Patel,South,Small Business,2023-09-01
+C00841,William Miller,North,Small Business,2023-01-28
+C00842,Fatima Davis,Central,Consumer,2022-08-25
+C00843,John Kim,Central,Consumer,2022-03-08
+C00844,Robert Andersson,South,Consumer,2024-02-15
+C00845,Linda Andersson,West,Consumer,2024-08-19
+C00846,Sofia Garcia,South,Consumer,2023-10-16
+C00847,Karen Brown,South,Corporate,2023-08-23
+C00848,Richard Dubois,West,Consumer,2022-12-06
+C00849,Yuki Nguyen,West,Consumer,2022-12-13
+C00850,Sofia Smith,North,Corporate,2022-05-23
+C00851,Barbara Davis,Central,Consumer,2023-06-26
+C00852,Carlos Rodriguez,South,Small Business,2022-07-18
+C00853,Wei Nguyen,East,Corporate,2022-09-30
+C00854,Sofia Martinez,Central,Consumer,2022-07-09
+C00855,Charles Williams,South,Consumer,2022-10-01
+C00856,Thomas Silva,East,Small Business,2024-07-30
+C00857,Joseph Johnson,Central,Consumer,2022-09-07
+C00858,Patricia Kumar,West,Consumer,2024-01-28
+C00859,Liam Williams,South,Consumer,2022-07-10
+C00860,Arjun Smith,North,Small Business,2024-04-10
+C00861,Susan Dubois,West,Consumer,2024-08-07
+C00862,Elena Jones,South,Consumer,2023-08-07
+C00863,Wei Brown,East,Consumer,2022-08-06
+C00864,Linda Williams,South,Consumer,2024-05-23
+C00865,Linda Chen,West,Consumer,2024-07-31
+C00866,Wei Jones,North,Corporate,2023-07-31
+C00867,David Kumar,West,Small Business,2022-08-03
+C00868,William Patel,North,Consumer,2023-09-09
+C00869,Fatima Rodriguez,North,Small Business,2023-07-22
+C00870,Mary Dubois,North,Consumer,2022-08-29
+C00871,John Silva,East,Consumer,2022-08-07
+C00872,Elizabeth Silva,Central,Consumer,2023-11-20
+C00873,Linda Silva,North,Consumer,2022-12-17
+C00874,Jennifer Muller,South,Corporate,2022-06-06
+C00875,Susan Silva,North,Consumer,2023-07-20
+C00876,Richard Muller,South,Consumer,2024-02-01
+C00877,John Muller,East,Consumer,2022-01-17
+C00878,Elena Dubois,South,Small Business,2024-07-26
+C00879,Patricia Muller,Central,Small Business,2023-09-12
+C00880,Barbara Silva,West,Corporate,2022-08-12
+C00881,Thomas Williams,South,Consumer,2023-10-24
+C00882,Jessica Patel,West,Consumer,2023-02-08
+C00883,William Rossi,North,Consumer,2023-01-09
+C00884,Elena Nguyen,South,Consumer,2023-02-18
+C00885,Linda Kumar,Central,Consumer,2022-10-16
+C00886,Yuki Kim,West,Consumer,2023-02-24
+C00887,Joseph Chen,South,Consumer,2022-11-14
+C00888,Michael Patel,Central,Consumer,2024-04-16
+C00889,Robert Martinez,South,Consumer,2023-09-22
+C00890,Michael Johnson,Central,Consumer,2024-02-20
+C00891,Jennifer Nguyen,North,Small Business,2024-04-12
+C00892,Elizabeth Rossi,South,Consumer,2023-05-16
+C00893,Elizabeth Dubois,North,Small Business,2022-10-02
+C00894,Elizabeth Chen,West,Small Business,2023-07-14
+C00895,Thomas Rodriguez,North,Small Business,2022-11-21
+C00896,Robert Smith,South,Small Business,2024-03-31
+C00897,Carlos Martinez,North,Consumer,2022-09-23
+C00898,James Rossi,North,Corporate,2023-10-22
+C00899,Charles Silva,South,Consumer,2022-07-01
+C00900,Ahmed Johnson,North,Consumer,2024-07-05
+C00901,Susan Martinez,North,Consumer,2024-01-28
+C00902,David Nguyen,North,Consumer,2022-04-11
+C00903,William Chen,Central,Corporate,2022-03-18
+C00904,Thomas Johnson,Central,Consumer,2022-11-01
+C00905,William Kumar,East,Consumer,2022-02-20
+C00906,Elena Kumar,North,Small Business,2022-01-29
+C00907,Jessica Martinez,East,Consumer,2022-11-03
+C00908,Mary Silva,South,Corporate,2024-08-31
+C00909,Susan Davis,North,Consumer,2023-01-10
+C00910,Fatima Muller,South,Small Business,2022-06-13
+C00911,Jessica Brown,East,Consumer,2024-07-19
+C00912,Liam Kumar,South,Small Business,2024-05-20
+C00913,Fatima Jones,West,Consumer,2024-05-20
+C00914,Karen Andersson,North,Consumer,2023-11-25
+C00915,Wei Dubois,East,Small Business,2022-10-24
+C00916,Mary Kumar,North,Small Business,2022-12-13
+C00917,Charles Johnson,North,Consumer,2023-08-08
+C00918,Arjun Dubois,Central,Consumer,2022-09-17
+C00919,Charles Garcia,South,Small Business,2022-08-18
+C00920,David Brown,North,Consumer,2024-04-06
+C00921,William Jones,North,Consumer,2023-10-19
+C00922,Richard Martinez,East,Consumer,2024-09-16
+C00923,Elizabeth Williams,East,Small Business,2022-04-28
+C00924,Priya Johnson,East,Consumer,2022-10-17
+C00925,Sofia Muller,East,Consumer,2023-09-11
+C00926,William Smith,North,Consumer,2022-01-24
+C00927,Joseph Rossi,South,Consumer,2023-08-27
+C00928,James Silva,North,Small Business,2023-05-08
+C00929,Sofia Brown,North,Consumer,2022-09-11
+C00930,William Chen,Central,Consumer,2024-09-06
+C00931,Thomas Johnson,West,Consumer,2023-11-08
+C00932,Karen Garcia,North,Consumer,2022-01-02
+C00933,Elizabeth Davis,South,Small Business,2023-04-10
+C00934,Joseph Jones,West,Consumer,2023-10-15
+C00935,Sarah Chen,North,Corporate,2022-05-03
+C00936,Ahmed Johnson,South,Consumer,2022-07-03
+C00937,Elizabeth Johnson,Central,Consumer,2022-01-28
+C00938,Charles Brown,North,Consumer,2024-02-17
+C00939,Susan Johnson,North,Small Business,2023-10-26
+C00940,Fatima Miller,East,Consumer,2023-07-31
+C00941,Sarah Nguyen,West,Small Business,2022-03-31
+C00942,Jennifer Brown,Central,Small Business,2022-05-31
+C00943,Fatima Brown,West,Consumer,2024-02-24
+C00944,Karen Rossi,East,Consumer,2024-04-17
+C00945,Jessica Jones,West,Consumer,2024-01-27
+C00946,Susan Garcia,West,Corporate,2023-08-17
+C00947,Fatima Miller,North,Small Business,2024-04-17
+C00948,Arjun Silva,East,Consumer,2024-07-13
+C00949,Wei Davis,South,Consumer,2024-06-13
+C00950,Priya Williams,South,Consumer,2024-06-10
+C00951,Wei Davis,Central,Small Business,2022-01-13
+C00952,Fatima Garcia,West,Consumer,2024-06-17
+C00953,John Davis,North,Consumer,2023-10-29
+C00954,William Miller,Central,Consumer,2022-04-07
+C00955,Elena Kumar,Central,Consumer,2023-06-16
+C00956,Elena Silva,South,Consumer,2024-03-23
+C00957,Linda Kumar,North,Consumer,2024-05-09
+C00958,Carlos Patel,West,Small Business,2022-05-09
+C00959,Patricia Andersson,East,Small Business,2024-01-24
+C00960,Richard Kim,North,Consumer,2023-09-12
+C00961,Priya Kim,Central,Consumer,2023-03-20
+C00962,Elizabeth Kumar,South,Consumer,2022-05-06
+C00963,David Dubois,West,Small Business,2022-10-05
+C00964,Joseph Nguyen,North,Consumer,2024-09-02
+C00965,Mary Chen,South,Consumer,2024-07-21
+C00966,Thomas Martinez,North,Corporate,2023-08-22
+C00967,Karen Silva,South,Consumer,2023-06-29
+C00968,Ahmed Patel,West,Consumer,2023-04-12
+C00969,Priya Jones,North,Consumer,2022-12-25
+C00970,Ahmed Dubois,West,Consumer,2022-02-26
+C00971,Susan Chen,South,Consumer,2024-01-27
+C00972,Sarah Chen,Central,Consumer,2024-03-01
+C00973,Charles Smith,East,Consumer,2022-03-04
+C00974,Thomas Williams,East,Consumer,2023-10-21
+C00975,Joseph Nguyen,Central,Consumer,2023-02-05
+C00976,Joseph Dubois,South,Consumer,2023-01-23
+C00977,Michael Muller,Central,Consumer,2023-02-19
+C00978,Michael Kumar,East,Consumer,2023-04-23
+C00979,James Patel,South,Consumer,2022-12-05
+C00980,William Brown,East,Consumer,2024-01-05
+C00981,Robert Davis,South,Small Business,2024-05-21
+C00982,Carlos Chen,East,Corporate,2023-06-25
+C00983,Yuki Kumar,East,Small Business,2023-02-01
+C00984,John Muller,East,Consumer,2023-01-07
+C00985,David Brown,North,Consumer,2023-04-15
+C00986,Barbara Brown,West,Consumer,2024-03-02
+C00987,James Kim,South,Consumer,2024-07-29
+C00988,Charles Jones,East,Corporate,2024-03-12
+C00989,Elizabeth Smith,North,Small Business,2022-01-11
+C00990,Michael Rodriguez,Central,Consumer,2023-09-10
+C00991,William Silva,West,Consumer,2022-08-15
+C00992,Sarah Williams,North,Consumer,2022-04-27
+C00993,Elena Smith,Central,Consumer,2024-01-23
+C00994,Carlos Rossi,South,Consumer,2023-03-18
+C00995,Mary Patel,Central,Consumer,2022-03-10
+C00996,Priya Kumar,Central,Consumer,2023-03-22
+C00997,Charles Muller,East,Consumer,2023-02-20
+C00998,Wei Jones,West,Consumer,2022-03-01
+C00999,Michael Silva,West,Consumer,2022-08-15
+C01000,Elizabeth Silva,East,Consumer,2022-05-23
+C01001,Fatima Andersson,Central,Consumer,2024-05-04
+C01002,Joseph Brown,North,Consumer,2022-07-14
+C01003,Jessica Kim,Central,Consumer,2023-07-08
+C01004,Priya Miller,North,Consumer,2022-09-16
+C01005,Sofia Muller,West,Consumer,2022-07-05
+C01006,Susan Davis,South,Consumer,2024-08-03
+C01007,Thomas Nguyen,East,Consumer,2022-06-19
+C01008,William Garcia,West,Corporate,2022-12-25
+C01009,Richard Chen,East,Consumer,2022-05-23
+C01010,Ahmed Andersson,South,Small Business,2022-01-05
+C01011,Karen Smith,North,Corporate,2023-02-18
+C01012,Elena Davis,East,Corporate,2022-02-11
+C01013,Richard Kim,North,Consumer,2022-04-25
+C01014,Sarah Johnson,East,Consumer,2023-09-10
+C01015,Barbara Silva,East,Consumer,2022-11-28
+C01016,Charles Williams,South,Small Business,2023-10-10
+C01017,Richard Patel,East,Consumer,2024-08-19
+C01018,Arjun Andersson,South,Small Business,2024-01-10
+C01019,Carlos Smith,Central,Small Business,2023-02-25
+C01020,Thomas Jones,West,Consumer,2024-05-16
+C01021,Jessica Garcia,South,Consumer,2023-02-20
+C01022,Jessica Kumar,West,Corporate,2024-09-23
+C01023,Wei Davis,North,Consumer,2022-01-12
+C01024,Charles Chen,West,Consumer,2022-12-21
+C01025,Sarah Silva,North,Consumer,2024-07-27
+C01026,Richard Patel,North,Small Business,2023-07-08
+C01027,Elizabeth Miller,West,Consumer,2022-01-26
+C01028,David Kim,South,Consumer,2022-09-19
+C01029,Richard Kim,East,Consumer,2023-05-29
+C01030,Yuki Muller,West,Consumer,2024-06-30
+C01031,David Garcia,Central,Consumer,2022-11-16
+C01032,William Nguyen,North,Consumer,2022-04-02
+C01033,James Andersson,West,Consumer,2023-07-28
+C01034,Richard Williams,Central,Consumer,2023-02-12
+C01035,Yuki Chen,East,Consumer,2022-01-23
+C01036,Wei Andersson,West,Consumer,2023-09-19
+C01037,Elizabeth Andersson,North,Consumer,2022-09-13
+C01038,Sarah Johnson,East,Consumer,2024-03-01
+C01039,Jennifer Rodriguez,North,Consumer,2023-08-13
+C01040,Liam Dubois,East,Consumer,2022-06-21
+C01041,Joseph Brown,West,Small Business,2022-12-27
+C01042,Patricia Muller,North,Consumer,2024-03-09
+C01043,Wei Jones,East,Small Business,2024-06-05
+C01044,Richard Brown,Central,Small Business,2023-11-11
+C01045,Linda Williams,North,Consumer,2022-10-15
+C01046,Priya Chen,South,Consumer,2024-06-16
+C01047,Sofia Kim,West,Consumer,2024-05-09
+C01048,Karen Miller,South,Consumer,2024-01-29
+C01049,Linda Miller,North,Consumer,2022-07-29
+C01050,John Rossi,South,Consumer,2023-01-09
+C01051,Ahmed Kim,East,Consumer,2022-07-02
+C01052,Robert Williams,East,Consumer,2023-12-28
+C01053,Charles Andersson,East,Corporate,2024-01-16
+C01054,David Brown,West,Consumer,2024-03-23
+C01055,Susan Muller,West,Consumer,2024-02-05
+C01056,Thomas Kumar,East,Consumer,2022-01-26
+C01057,Yuki Kumar,West,Small Business,2022-09-06
+C01058,Richard Miller,Central,Small Business,2022-10-30
+C01059,Sofia Rossi,Central,Small Business,2022-05-27
+C01060,Thomas Nguyen,West,Consumer,2022-11-28
+C01061,Mary Williams,North,Consumer,2022-04-30
+C01062,Jessica Miller,West,Small Business,2023-03-22
+C01063,Arjun Miller,North,Small Business,2024-08-03
+C01064,Sofia Brown,West,Consumer,2024-01-12
+C01065,Michael Smith,East,Small Business,2022-11-04
+C01066,David Chen,West,Consumer,2023-01-19
+C01067,John Rodriguez,South,Consumer,2023-02-06
+C01068,Jessica Williams,West,Consumer,2024-03-04
+C01069,Jessica Muller,South,Consumer,2024-04-18
+C01070,Arjun Nguyen,South,Consumer,2023-09-05
+C01071,Sarah Brown,South,Small Business,2022-12-16
+C01072,Richard Rodriguez,North,Corporate,2023-09-22
+C01073,Liam Dubois,East,Corporate,2023-08-06
+C01074,Barbara Nguyen,South,Consumer,2023-01-05
+C01075,Fatima Garcia,North,Consumer,2023-03-17
+C01076,John Nguyen,Central,Consumer,2023-04-20
+C01077,Fatima Williams,Central,Small Business,2023-04-13
+C01078,William Muller,South,Consumer,2023-11-05
+C01079,Michael Johnson,West,Consumer,2024-07-19
+C01080,John Dubois,North,Consumer,2024-04-25
+C01081,David Jones,Central,Consumer,2023-07-25
+C01082,Arjun Johnson,North,Consumer,2023-07-08
+C01083,Sarah Miller,Central,Consumer,2022-03-09
+C01084,Patricia Rossi,North,Small Business,2022-04-30
+C01085,Elizabeth Rodriguez,West,Corporate,2023-12-13
+C01086,Mary Rossi,North,Consumer,2022-04-19
+C01087,Sarah Kim,West,Small Business,2023-01-27
+C01088,Thomas Silva,West,Small Business,2024-03-26
+C01089,Mary Brown,Central,Consumer,2022-02-01
+C01090,Linda Garcia,South,Consumer,2024-09-13
+C01091,Karen Rossi,North,Small Business,2024-09-19
+C01092,Carlos Silva,South,Consumer,2022-12-12
+C01093,Karen Garcia,Central,Corporate,2024-03-29
+C01094,Joseph Miller,North,Consumer,2022-05-18
+C01095,Robert Chen,Central,Consumer,2022-10-19
+C01096,Mary Smith,Central,Consumer,2022-11-27
+C01097,Thomas Garcia,South,Consumer,2022-10-25
+C01098,Arjun Williams,West,Consumer,2024-02-23
+C01099,Robert Rossi,North,Small Business,2022-03-12
+C01100,John Smith,Central,Consumer,2023-06-29
+C01101,Barbara Davis,North,Consumer,2024-05-09
+C01102,William Muller,West,Small Business,2024-04-16
+C01103,Michael Patel,South,Consumer,2022-07-19
+C01104,Susan Kumar,North,Small Business,2023-01-29
+C01105,Fatima Muller,East,Small Business,2022-06-17
+C01106,Karen Smith,North,Consumer,2024-01-10
+C01107,Sarah Garcia,South,Consumer,2022-03-29
+C01108,Michael Silva,Central,Consumer,2022-10-01
+C01109,Richard Jones,North,Small Business,2022-02-13
+C01110,Wei Garcia,South,Small Business,2022-04-19
+C01111,Joseph Williams,North,Consumer,2022-12-09
+C01112,Wei Miller,Central,Consumer,2024-07-27
+C01113,Michael Rodriguez,South,Consumer,2024-03-19
+C01114,Michael Martinez,North,Consumer,2023-09-28
+C01115,Liam Muller,East,Corporate,2024-03-25
+C01116,Charles Patel,West,Small Business,2023-10-20
+C01117,Carlos Muller,North,Consumer,2022-12-29
+C01118,Patricia Rossi,Central,Consumer,2023-04-18
+C01119,Arjun Smith,Central,Small Business,2023-11-15
+C01120,Priya Garcia,North,Consumer,2022-12-27
+C01121,James Muller,South,Small Business,2022-07-27
+C01122,Yuki Rodriguez,South,Consumer,2023-02-02
+C01123,Liam Davis,West,Consumer,2023-07-25
+C01124,Fatima Martinez,East,Consumer,2023-03-20
+C01125,John Kim,South,Consumer,2022-06-16
+C01126,Patricia Rossi,East,Consumer,2024-01-30
+C01127,Barbara Rodriguez,South,Consumer,2023-08-02
+C01128,Wei Andersson,North,Consumer,2022-08-05
+C01129,Susan Muller,East,Consumer,2023-11-23
+C01130,Elizabeth Andersson,East,Small Business,2022-12-18
+C01131,Robert Chen,West,Small Business,2024-03-22
+C01132,Patricia Miller,South,Consumer,2024-09-12
+C01133,Arjun Smith,North,Consumer,2022-02-11
+C01134,Elena Davis,West,Consumer,2023-11-05
+C01135,Jessica Miller,West,Consumer,2023-09-27
+C01136,Michael Smith,West,Consumer,2022-07-24
+C01137,Karen Brown,West,Corporate,2022-08-05
+C01138,Liam Muller,Central,Consumer,2023-03-04
+C01139,Sofia Johnson,West,Consumer,2023-12-09
+C01140,Linda Johnson,North,Consumer,2023-03-05
+C01141,Thomas Kumar,East,Consumer,2022-11-30
+C01142,Robert Patel,West,Small Business,2023-12-30
+C01143,Charles Johnson,Central,Consumer,2023-02-23
+C01144,Patricia Rossi,South,Small Business,2023-05-13
+C01145,Charles Davis,East,Small Business,2023-08-21
+C01146,Carlos Chen,North,Consumer,2022-12-07
+C01147,Joseph Williams,North,Small Business,2023-11-12
+C01148,Joseph Williams,North,Consumer,2023-06-20
+C01149,Priya Chen,West,Corporate,2022-02-11
+C01150,Wei Nguyen,South,Small Business,2024-01-09
+C01151,Wei Nguyen,East,Small Business,2022-07-12
+C01152,Robert Andersson,East,Consumer,2022-04-12
+C01153,Mary Martinez,West,Small Business,2022-06-24
+C01154,Charles Johnson,North,Small Business,2023-08-06
+C01155,Fatima Andersson,East,Consumer,2022-07-03
+C01156,Mary Davis,South,Consumer,2022-09-06
+C01157,Priya Dubois,South,Small Business,2023-12-30
+C01158,Fatima Nguyen,Central,Small Business,2023-01-21
+C01159,Barbara Rossi,North,Small Business,2024-03-16
+C01160,David Smith,West,Small Business,2023-01-23
+C01161,Arjun Patel,Central,Consumer,2024-05-12
+C01162,Charles Rossi,North,Consumer,2022-02-19
+C01163,Priya Garcia,West,Consumer,2023-11-04
+C01164,Carlos Rossi,North,Consumer,2023-04-29
+C01165,Jessica Martinez,North,Consumer,2024-04-17
+C01166,Elizabeth Chen,West,Consumer,2024-02-08
+C01167,Wei Miller,East,Small Business,2023-03-01
+C01168,James Jones,North,Consumer,2022-09-20
+C01169,Arjun Rossi,South,Consumer,2023-08-01
+C01170,Barbara Martinez,South,Corporate,2022-04-17
+C01171,Elena Brown,East,Consumer,2024-05-18
+C01172,Elizabeth Andersson,West,Consumer,2023-06-02
+C01173,Carlos Kumar,South,Corporate,2022-07-21
+C01174,Linda Rossi,Central,Consumer,2022-02-26
+C01175,Richard Andersson,South,Small Business,2023-07-01
+C01176,Elena Patel,Central,Small Business,2023-07-14
+C01177,John Patel,North,Small Business,2023-06-17
+C01178,Sofia Patel,North,Consumer,2024-07-21
+C01179,Joseph Jones,East,Consumer,2024-02-06
+C01180,David Nguyen,South,Consumer,2023-12-21
+C01181,Linda Williams,South,Consumer,2024-06-27
+C01182,James Brown,South,Consumer,2024-01-27
+C01183,Fatima Kumar,South,Consumer,2022-02-10
+C01184,Richard Kumar,South,Corporate,2024-04-27
+C01185,Priya Martinez,North,Consumer,2024-04-18
+C01186,Jessica Smith,North,Consumer,2024-03-27
+C01187,Arjun Williams,North,Corporate,2024-07-02
+C01188,Elizabeth Kim,West,Consumer,2024-01-22
+C01189,Patricia Smith,North,Consumer,2024-07-27
+C01190,Charles Martinez,North,Consumer,2024-07-12
+C01191,Fatima Andersson,South,Consumer,2022-11-07
+C01192,Sarah Kumar,West,Corporate,2024-08-12
+C01193,Patricia Jones,East,Small Business,2023-01-13
+C01194,Robert Johnson,West,Consumer,2022-06-30
+C01195,Richard Rossi,West,Consumer,2023-09-01
+C01196,John Johnson,East,Consumer,2022-02-28
+C01197,Jessica Williams,East,Small Business,2022-12-21
+C01198,Liam Garcia,West,Consumer,2022-01-17
+C01199,Patricia Miller,South,Corporate,2022-10-10
+C01200,Liam Silva,South,Corporate,2022-05-12
