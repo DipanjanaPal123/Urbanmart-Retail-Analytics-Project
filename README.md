@@ -42,7 +42,6 @@ drill into the sales decomposition tree, and try the price what-if slider.
 │   └── UrbanMart_Sales_Dashboard.xlsx   # formula-driven pivot summary + charts
 └── powerbi/
     ├── DAX_measures.txt
-    └── dashboard_build_guide.md         # step-by-step .pbix build instructions
 ```
 
 ## What each tool does in this project
